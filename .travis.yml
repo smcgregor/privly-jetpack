@@ -32,7 +32,7 @@ before_script:
   - rake db:schema:load #Loads the Scheme
   - rake db:seed #Seeds the DB
   - "bundle exec rails server -p 3000 &"
-  - cd ../chrome/content/privly-applications/
+  - cd ../chrome/content/privly-applications/test/selenium
 script:
   - "if [ ${TRAVIS_PULL_REQUEST} = 'false' ]; then ruby run_all.rb -p sauce_firefox_extension -r experimental -c http://localhost:3000; fi" # Don't run on pull requests
   - cd $TRAVIS_BUILD_DIR
