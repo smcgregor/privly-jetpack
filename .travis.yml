@@ -6,10 +6,12 @@ env:
   - DB=mysql
   - TRAVIS_LAUNCHES_SAUCE_CONNECT=true # Tell the karma file that it does not need to launch Sauce connect
   - RAILS_ENV=development
-  - secure: fGGzDXTavuBo7KPkuIeBR+Lwqy+/yxqMA9Pi+8mp0RT9e4XU8HVYD23V0NDErXLff8J7aqbOe0/5D5ZiIV0G5MxoXNGx7zsDAO7FwpP902tgYm95SK5yEEWDO/dgP9F/mbZqw7+wrxsdkTDYu8C8A3FZf1nc7nrriYX9ttsgw2E=#SAUCE_USERNAME=privly(smcgregor/privly-jetpack)
+  - secure: hxgn4kmR2rbNhczNkNnyl0TP6K3YBqVbMNCUqyK/1FwrR5UEoBEf9lV9BzRYbFFdfDcYmHFkbAQ2NYUIxeE4aPvUGrd+Rg/bIH78/sNruTe/iIDy+mB5xmnL57W7+7mBhiQiCnt5VhmcvQ48F7WC1ZRZXmM0TisXoASQyQMidL9D5glfdQcB5qfEORgMqaKYYQoqIldGNu7qFuV1xHKOochdrKiQQVvPb91aCe4Gg9zRN1i+x7e9svQwQTPCciEJbPf9OOWyrINtaV04njvh4TunJKcdSAeNN6uaHEeu0HAA/wsYZSbkD4yHUjuJDZGlFwWdEIQWMvzw42Ca+85SI9NNrF2lhn+e11hJlLpidmsggvQX5raUZlS1RDzjm2bSS02SsTmdQbQcf1muq7eRSbJ7AJG2ZKt0aQ496OOrNeF0JctNpW9aCUuvP/ijCE2DmAkd0su9Z2BaGzZ7a2L1C1Knv6okJasDXPV3Ckxn7iAG+AwEdEVuj3m2+VAS/8XubyjmRaFqENd59rz+KONgBZhFvHk0/n5JD6ST95CW5HDjLGBvKCxS9/UWd/1+fSWbbWgXbAC++V6ochcn/CdfIbB/BMN+dGCeyapWgWTEHpq5cBSTawkHxZ6U3kYktlK2FCjI3OOQ1tRRrrDXbvZrlJ46zqvwYn2FkAKQdteRB+w=#SAUCE_ACCESS_KEY=*****(smcgregor/privly-jetpack)
   - secure: "Lavb2wB2dImhGP2NByrl0xtNXYgmRT0BJ3pgsrIqoFK5ymKy7L2rqSqdxtZhS3arMyb4JWYQEP+UlkSxycYcoajrj8uOGbhKoAeGXwYszStl0jIumMfTqWj/waGU3g8cizGJdSL8TroseQy9sh8uUFoqRXbBnpEhj0IW67aGo0hzeDjJF4MjBZvxOZd6uY9xOTYO6l+452ktj33G+tAJr1c+z71J75zTDphgKo6XF7Y2KzT6C0y2m8tPeYTSzQev5juQgEo4UyOqO5cCEwHZdgcOLQCtaxlTE+Wz6lCEI0qtKmz/Z1FMhrqWkJJWdrMmODdeNoOMIG3juq4baoZeARr7ws5SFGbW0Gvdk61XjzfOlc/G7Wgxg1FZJOVeN7WmqsU8oyuPMP0Op/wqLNSLzs+XMpdI4e33dVJjpHTCxJZiKgBoR17xJDiEGvZRtKCDgk8zT19NNb0W1lZ3Gg63pQ5l1oJ/YBDgUYNmTeRW8UL3R1jSSEqco4DwtKhlnp6bQGD3ESX3pUB/TizZgRAGX87vNDlMkG3cQlOCufQVWoUCk2P3lLq8euRwh1F2JPMa7Ox+A1PM2ENUsdTyjBue/cv6VIcDtNr1r3AXTdVUbLtOrDE36/WkHl2VNlOzc1sbczh8afHtOvX+1ouQm1yD0Bwn4R0d1RUEiIu147ms3vY="#SAUCE_URL="http://privly:********-****-****-****-************@ondemand.saucelabs.com:80/wd/hub"(smcgregor/privly-jetpack)
   - secure: h71l3AjoasthHGP58QY1y7bZ9qnuZba8dAjDUsU1ZriDAIbXiqm94bK4O5hEjL2heSzClNOHTXF1/2W3Qf5j89LqY+Qiw1X5sYyGEG6B71eIUVZ71C635lk7iyhEUXHXIu0mJ/L9Ey6HTm9XoKpXgtNIFICHl6mb8hYbXE06+1o3/Ut+yPzGyD/Dg5amQZ6NEMAfSVZI7W3HoepDmjIl/c9lRXmivOZpDh0akQhVrcbJRuIMYsXrO67wV4vLWit9Mgdv2+WphNQIwJu+YwyXfKurjfjE/S2V0dQhXMWMnhNR0O7PEiEWW+lTQroGkXon/n+/gcLeQm5FvHpHM1xmY21O4OQuEggTZlFf2MXyujByt1bqcgNgyAOoTn4TN4K1Ck7g/gmmopYPYLuNnKs6q/p7OucVmbDPbtsu0RanOI39wT5l05PJ6X8MiRnMi/V2EPnJMg7dv7q93OnXs3u5c15QUduG//wN4g6xt6rXlYSD2tCKtkIlJGorX2AKCut0i4DGORQm4dadcClldM2WUfjM+bbNGbPnj98T8oJLf9G7RJPmyOImibgwlDeG3VRtPZEQKOYM4rmCQlWXmH7lG54axfp6/bqQinGJ+hYaUdDXYD3IISphIe77okywp/OaPlbzgj1jJtXfmPsJqvkzlK3jUsjf72FNb4z3bolR9WE=#SAUCE_USERNAME=privly(smcgregor/privly-jetpack)
+  - secure: fGGzDXTavuBo7KPkuIeBR+Lwqy+/yxqMA9Pi+8mp0RT9e4XU8HVYD23V0NDErXLff8J7aqbOe0/5D5ZiIV0G5MxoXNGx7zsDAO7FwpP902tgYm95SK5yEEWDO/dgP9F/mbZqw7+wrxsdkTDYu8C8A3FZf1nc7nrriYX9ttsgw2E=#SAUCE_USERNAME=privly(privly/privly-jetpack)
   - secure: "o75kMJHFu067DwswLwswtyW5WvfedqnD1cAx+r1ThuRB2hs9hy0owdYUBnbYq9LBIsAmqd6Wn0RlLMxvRfUMtTh2YH5rwI23/VyHEbN+tb5zoEqYJZdrBcdb69eZ8c+9TP+4up0gac22IathacPRtH2Geb7V/w0vohl6bPjQ/do="#SAUCE_URL="http://privly:********-****-****-****-************@ondemand.saucelabs.com:80/wd/hub"(smcgregor/privly-jetpack)
+  - secure: Oh/fV51fU5XM3ZBXiplWT821Qhd/LJPw+G2pK31o6HyBi2S+gbotu4amTBasTkofS/QP4T8iKiHt+6aCY2SWIMsnZNholmIQKw0KzX8GzM1KKpMcuF1rMboOb7R/gxz5fR4C6ijUg3ulDaE46SUOGtcSYbWi80LKAWP16G0tqzw=#SAUCE_ACCESS_KEY=*****(privly/privly-jetpack)
 before_install:
   - "export DISPLAY=:99.0"
   - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16 -extension RANDR"
@@ -37,6 +39,5 @@ script:
   - "if [ ${TRAVIS_PULL_REQUEST} = 'false' ]; then ruby run_all.rb -p sauce_firefox_extension -r experimental -c http://localhost:3000; fi" # Don't run on pull requests
   - cd $TRAVIS_BUILD_DIR
   - ./run_test.sh
-
 addons:
   sauce_connect: true
