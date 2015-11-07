@@ -35,7 +35,7 @@ before_script:
   - rake db:seed #Seeds the DB
   - "bundle exec rails server -p 3000 &"
   - cd ../chrome/content/privly-applications
-  - pip install -r requirements.txt
+  - sudo pip install -r requirements.txt
   - python build.py --platform firefox
   - cd test/selenium
 script:
